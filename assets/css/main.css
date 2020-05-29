@@ -1,0 +1,82 @@
+/* General rules */
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+body header {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+}
+
+body header .flex {
+  justify-content: space-between;
+  width: 100%;
+}
+
+body header div.flex div {
+  width: 96px;
+  height: 48px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body header div.flex div a:first-child{
+  color: #bcbcbc;
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid #eee;
+}
+
+body header div.flex div a:last-child{
+  color: #ff4422;
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid #eee;
+}
+
+body header div.flex div i {
+  margin: 0 auto;
+  transform: rotateY(180deg);
+}
+
+body header div.flex picture {
+  background: linear-gradient(to right bottom, rgb(204, 0, 153), rgb(255, 68, 34) 85%);
+  border: 1px solid red;
+  width: 106px;
+  height: 48px;
+}
+
+body header div.flex picture a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 16px 20px;
+}
+
+body header div.flex picture a img {
+  width: 100%;
+  height: 100%;
+}
+
+body header div.register {
+  background-color: #ffdd33;
+  height: 55px;
+  width: 100%;
+}
+
+body header div.register a {
+  font-size: 12px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #000;
+  font-family: Helvetica Neue, Arial, sans-serif;
+}
+
+/* Main */
