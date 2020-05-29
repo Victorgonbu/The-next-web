@@ -89,6 +89,7 @@ main {
   position: relative;
   top: 75px;
   width: 100%;
+  font-family: 'Oswald', sans-serif;
 }
 
 main section.hero-section > * {
@@ -161,3 +162,94 @@ main section.hero-section div .a-link div {
   font-size: 0.85em;
   padding-top: 0.5em;
 }
+
+main section.last-news {
+  font-family: 'Roboto', sans-serif;
+  width: 93%;
+  margin: 0 auto;
+  
+}
+
+main section.last-news h2 a{
+  display: inline-block;
+  padding: 0.8em 0;
+  color: #f42;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+main section.last-news h2 a:hover {
+  color: #000;
+}
+
+
+main section.last-news > ul  > li {
+  color: #000;
+ margin-top: 8px ;
+ 
+}
+
+main section.last-news > ul > li  h4 a {
+  display: inline-block;
+   color: #000;
+   font-size: 1em;
+   font-weight: 700;
+   text-decoration: none;
+   padding-bottom: 0.5em;
+   line-height: 1.2em;
+}
+
+
+
+main section.last-news > ul > li .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Untitled-design-58-516x270.png) ;
+  display: inline-block;
+  min-height:75px ;
+  min-width:75px ;
+  background-position: center;
+  background-size: cover;
+  margin-right: 8px;
+}
+
+
+main section.last-news > ul > li:nth-child(2) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/master_elon_musk2-516x270.png) ;
+}
+main section.last-news > ul > li:nth-child(3) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Iconscout-540x270.jpg) ;
+}
+
+main section.last-news > ul > li:nth-child(4) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/tesla-xpeng-website-car-ev-copyright-copy-cat-electric-vehicle-funny-480x270.png) ;
+}
+
+main section.last-news > ul > li:nth-child(5) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-6-1-516x270.png) ;
+}
+
+main section.last-news > ul > li:nth-child(6) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-5-2-516x270.png) ;
+}
+
+main section.last-news > ul > li:nth-child(7) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-516x270.jpg) ;
+}
+
+main section.last-news > ul > li:nth-child(8) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/tesla-xpeng-website-car-ev-copyright-copy-cat-electric-vehicle-funny-480x270.png) ;
+}
+
+
+
+main section.last-news > ul > li ul li {
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+main section.last-news > ul > li ul li:last-child {
+  padding-left: 1em;
+}
+
