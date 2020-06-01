@@ -263,6 +263,7 @@ main section.fundings h2 a {
 
 main section.fundings ul {
   flex-direction: column;
+  margin-bottom: 1em;
 }
 
 main section.fundings ul li {
@@ -357,4 +358,141 @@ main section .fund-blocks .bottom-fbox span {
 
 main section.fundings .fund-blocks > div:last-child {
   display: none;
+}
+
+section.content h2 a {
+  display: block;
+  font-size: 28px;
+  color: #f42;
+  padding-bottom: 1em;
+  text-decoration: none;
+
+}
+section.content {
+  width: 90%;
+  margin: 0 auto;
+
+  height: fit-content;
+  color: #fff;
+}
+
+section.content div.content-hero {
+  background:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Untitled-design-59-368x276.png) ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section.content div.content-hero article {
+  color: #fff;
+  padding: 1em 0.5em;
+}
+
+section.content div.content-hero article ul a, li {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+section.content div.content-hero > article {
+   display: block;
+   padding-top: 12em;
+   height: 100%;
+   width: 100%;
+   background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
+   background-size: contain ;
+   
+}
+
+section.content div.content-hero > article h5 {
+  padding: 5px 0;
+  font-size: 13px;
+}
+
+section.content div.content-hero > article h3{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+section.content div.content-hero > article h3:hover {
+  text-decoration: underline;
+}
+
+section.content div.content-hero > article ul li {
+   padding: 10px 5px 0 0;
+
+
+}
+
+section.content  div.flex {
+  height: 96px;
+}
+
+section.content  div.flex > * {
+  
+  flex: 1;
+}
+
+section.content  div.flex div:first-child {
+  background-color: #ffebe7;
+  flex: 2;
+  padding:10px 5px 20px 5px;
+}
+
+section.content  div.flex div:first-child h5, a {
+  color: #f42;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+
+section.content  div.flex div:first-child h5 {
+  font-size: 13px;
+}
+
+section.content  div.flex div:first-child a{
+  font-weight: 700;
+  font-size: 14px;  
+}
+
+section.content div.flex div:last-child  {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-516x270.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+}
+
+section.content ul.orange-list {
+  list-style: none;
+}
+
+section.content ul.orange-list li {
+  padding: 0.5em 1em;
+
+}
+
+section.content ul.orange-list li a {
+ 
+  color: #555;
+}
+
+section.content ul.orange-list li:nth-child(2) a,
+section.content ul.orange-list li:nth-child(3) a{
+  color: #aaa;
+}
+
+section.content ul.orange-list li:nth-child(2) {
+  border-top: 1px solid rgb(218, 216, 216);
+}
+
+section.content ul.orange-list li:nth-child(3){
+  border-top: 1px solid rgb(218, 216, 216);
+  border-bottom: 1px solid rgb(218, 216, 216);
+}
+
+
+section.content ul.orange-list li::before {
+  content: "\2022";
+  color: #f42;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
 }
