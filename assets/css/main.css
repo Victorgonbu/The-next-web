@@ -167,7 +167,7 @@ main section.last-news {
   font-family: 'Roboto', sans-serif;
   width: 93%;
   margin: 0 auto;
-  
+
 }
 
 main section.last-news h2 a{
@@ -187,7 +187,7 @@ main section.last-news h2 a:hover {
 main section.last-news > ul  > li {
   color: #000;
  margin-top: 8px ;
- 
+
 }
 
 main section.last-news > ul > li  h4 a {
@@ -240,16 +240,121 @@ main section.last-news > ul > li:nth-child(8) .news-img {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/tesla-xpeng-website-car-ev-copyright-copy-cat-electric-vehicle-funny-480x270.png) ;
 }
 
-
-
 main section.last-news > ul > li ul li {
   font-size: 0.8em;
   color: rgba(0, 0, 0, 0.6);
 }
 
-
-
 main section.last-news > ul > li ul li:last-child {
   padding-left: 1em;
 }
 
+/* colors */
+.fundings {
+  /* background-color: blue; */
+  margin: 3em 1em;
+}
+
+main section.fundings h2 a {
+  font-size: 28px;
+  text-decoration: none;
+  color: #ff4422;
+}
+
+main section.fundings ul {
+  flex-direction: column;
+}
+
+main section.fundings ul li {
+  padding-top: 1em;
+  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+}
+
+main section.fundings ul li a {
+  text-decoration: none;
+  color: #ff4422;
+}
+
+main section .fund-blocks {
+  min-width: 335px;
+}
+
+main section .fund-blocks img {
+  width: 60px;
+  height: 60px;
+}
+
+main section .fund-blocks picture {
+  position: relative;
+  bottom: 35px;
+  right: 10px;
+}
+
+main section .fund-price {
+  font-family: 'Roboto', sans-serif;
+  margin: 0.25em;
+}
+
+main section.fundings .head-fund h4{
+  padding:  0.7em 0 0.7em 5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #f42;
+}
+
+main section.fundings .p-fund {
+  background-color: #ffebe7;
+  padding-top: 1em;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+main section.fundings .p-fund h5 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+  margin-top: 1em;
+  color: rgba(0, 0, 0, 0.4);
+  letter-spacing: 1.65px;
+}
+
+main section.fundings .p-fund {
+  width: 100%;
+  padding-left: 1em;
+}
+
+main section .fund-blocks .icon-box {
+  padding: 0.75em;
+  background-color: #fffaf8;
+  border-bottom: 1px solid #ffcdc2;
+
+}
+
+main section .fund-blocks .icon-box div {
+  margin-bottom: 10px;
+}
+
+main section .fund-blocks .icon-box a {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+main section .fund-blocks .bottom-fbox {
+  padding: 0.75em;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  line-height: 1.5em;
+  background-color: #fffaf8;
+}
+
+main section .fund-blocks .bottom-fbox span {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+main section.fundings .fund-blocks > div:last-child {
+  display: none;
+}
