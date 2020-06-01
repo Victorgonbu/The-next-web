@@ -252,7 +252,7 @@ main section.last-news > ul > li ul li:last-child {
 /* colors */
 .fundings {
   /* background-color: blue; */
-  margin: 3em 1em;
+  margin: 3em 1em 1em 0;
 }
 
 main section.fundings h2 a {
@@ -364,10 +364,11 @@ section.content h2 a {
   display: block;
   font-size: 28px;
   color: #f42;
-  padding-bottom: 1em;
+  padding: 1em 0 0.5em 0;
   text-decoration: none;
-
+  font-weight: 700;
 }
+
 section.content {
   width: 90%;
   margin: 0 auto;
@@ -377,7 +378,10 @@ section.content {
 }
 
 section.content div.content-hero {
-  background:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Untitled-design-59-368x276.png) ;
+  background:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Untitled-design-59-368x276.png);
+  display: block;
+  position: relative;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -394,12 +398,10 @@ section.content div.content-hero article ul a, li {
 
 section.content div.content-hero > article {
    display: block;
-   padding-top: 12em;
-   height: 100%;
-   width: 100%;
+   padding-top: 40%;
+   /* width: 100%; */
    background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
    background-size: contain ;
-   
 }
 
 section.content div.content-hero > article h5 {
@@ -418,23 +420,21 @@ section.content div.content-hero > article h3:hover {
 
 section.content div.content-hero > article ul li {
    padding: 10px 5px 0 0;
-
-
 }
 
 section.content  div.flex {
   height: 96px;
+  margin-top: 2px;
 }
 
 section.content  div.flex > * {
-  
-  flex: 1;
+  width: 100%;
 }
 
 section.content  div.flex div:first-child {
   background-color: #ffebe7;
-  flex: 2;
-  padding:10px 5px 20px 5px;
+  padding:10px 5px 10px 10px;
+  width: calc(100% - 96px)
 }
 
 section.content  div.flex div:first-child h5, a {
@@ -449,14 +449,21 @@ section.content  div.flex div:first-child h5 {
 
 section.content  div.flex div:first-child a{
   font-weight: 700;
-  font-size: 14px;  
+  font-size: 14px;
 }
 
-section.content div.flex div:last-child  {
-  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-516x270.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  
+section.content div.flex div:last-child {
+  width: 96px;
+  height: 96px;
+}
+
+section.content div.flex a.anch-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 section.content ul.orange-list {
@@ -465,34 +472,34 @@ section.content ul.orange-list {
 
 section.content ul.orange-list li {
   padding: 0.5em 1em;
-
+  border-bottom: 1px solid rgb(218, 216, 216);
 }
 
 section.content ul.orange-list li a {
- 
   color: #555;
+  font-size: 13px;
 }
 
-section.content ul.orange-list li:nth-child(2) a,
-section.content ul.orange-list li:nth-child(3) a{
-  color: #aaa;
+section.content ul.orange-list li a:hover {
+  color: #000;
 }
 
-section.content ul.orange-list li:nth-child(2) {
+
+/* section.content ul.orange-list li:nth-child(2) {
   border-top: 1px solid rgb(218, 216, 216);
 }
 
 section.content ul.orange-list li:nth-child(3){
   border-top: 1px solid rgb(218, 216, 216);
   border-bottom: 1px solid rgb(218, 216, 216);
-}
+} */
 
 
 section.content ul.orange-list li::before {
   content: "\2022";
   color: #f42;
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
