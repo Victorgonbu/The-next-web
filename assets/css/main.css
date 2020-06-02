@@ -509,9 +509,10 @@ section.last-deals div.head-deals h3 a:hover {
 
 main section.last-deals > ul > li ul li:last-child {
   padding-top: 0.3em;
+  font-size: 14px;
 }
 
 main section.last-deals > ul > li ul li:first-child {
-  border: 1px solid red;
   text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.3);
 }
