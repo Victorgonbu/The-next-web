@@ -186,8 +186,7 @@ main section.last-news h2 a:hover {
 
 main section.last-news > ul  > li {
   color: #000;
- margin-top: 8px ;
-
+  margin-top: 8px ;
 }
 
 main section.last-news > ul > li  h4 a {
@@ -247,11 +246,11 @@ main section.last-news > ul > li ul li {
 
 main section.last-news > ul > li ul li:last-child {
   padding-left: 1em;
+  padding-top: 0.2em;
 }
 
 /* colors */
 .fundings {
-  /* background-color: blue; */
   margin: 3em 1em 1em 0;
 }
 
@@ -484,17 +483,6 @@ section.content ul.orange-list li a:hover {
   color: #000;
 }
 
-
-/* section.content ul.orange-list li:nth-child(2) {
-  border-top: 1px solid rgb(218, 216, 216);
-}
-
-section.content ul.orange-list li:nth-child(3){
-  border-top: 1px solid rgb(218, 216, 216);
-  border-bottom: 1px solid rgb(218, 216, 216);
-} */
-
-
 section.content ul.orange-list li::before {
   content: "\2022";
   color: #f42;
@@ -502,4 +490,28 @@ section.content ul.orange-list li::before {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+section.last-deals div.head-deals {
+    justify-content: space-between;
+}
+
+section.last-deals div.head-deals > *{
+  align-items: center;
+}
+
+section.last-deals div.head-deals h3 {
+  font-size: 12px;
+}
+
+section.last-deals div.head-deals h3 a:hover {
+  color: #000;
+}
+
+main section.last-deals > ul > li ul li:last-child {
+  padding-top: 0.3em;
+}
+
+main section.last-deals > ul > li ul li:first-child {
+  border: 1px solid red;
+  text-decoration: line-through;
 }
