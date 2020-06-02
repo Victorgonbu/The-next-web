@@ -25,6 +25,10 @@ body header .flex {
   width: 100%;
 }
 
+body header .flex nav {
+  display: none;
+}
+
 body header div.flex div {
   width: 96px;
   height: 48px;
@@ -136,8 +140,8 @@ main section.hero-section div .a-link {
   background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") repeat;
   background-size: contain;
   padding: 0.5em;
-
 }
+
 main section.hero-section div .a-link h5 {
   font-size: 0.8em;
 }
@@ -533,7 +537,7 @@ footer div.social-links  {
 }
 
 footer div.social-links ul {
-  
+
   justify-content: center;
   width: 90%;
   margin: 0 auto;
@@ -550,8 +554,7 @@ footer div.social-links ul:last-child li a {
 }
 
 footer div.social-links ul li {
-  flex: 1;
-
+  margin: 0 3px;
   display: flex;
   justify-content: center;
 }
