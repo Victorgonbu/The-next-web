@@ -106,7 +106,7 @@
   }
 
   body header div.register {
-    height: 30px;
+    height: 60px;
     justify-content: flex-start;
   }
 
@@ -123,6 +123,10 @@
   }
 
 /* main */
+  main {
+    top: 140px;
+  }
+
   main section.hero-section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -152,4 +156,24 @@
   .hero-section > div > article:nth-child(1) > h2 {
     font-size: 1.2em;
   }
+
+  section.last-news ul {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  section.last-news ul li.flex {
+    flex-direction: column;
+    flex-basis: calc(33.3% - 8px);
+    margin: 4px;
+   
+  }
+
+  section.last-news ul li.flex .news-img {
+    padding-top: 56.25%;
+    margin: 0 0 10px 0;
+  }
+
+  
 }

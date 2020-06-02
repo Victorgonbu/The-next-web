@@ -215,6 +215,11 @@ main section.last-news > ul > li .news-img {
   margin-right: 8px;
 }
 
+section.last-news ul li.flex div h4 a:hover{
+   color: #f42;
+   text-decoration: underline #e5e5e5;
+
+}
 
 main section.last-news > ul > li:nth-child(2) .news-img {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/master_elon_musk2-516x270.png) ;
@@ -586,3 +591,8 @@ footer div.legal span b {
 footer div.legal span img {
   height: 9px;
 }
+
+div.register div.logo-bottom {
+  display: none;
+}
+
