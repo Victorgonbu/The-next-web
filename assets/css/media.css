@@ -175,5 +175,66 @@
     margin: 0 0 10px 0;
   }
 
-  
+  main section.fundings ul {
+    flex-direction: row;
+  }
+
+  main section.fundings ul li {
+    padding: 10px 8px 0 0 ;
+  }
+  main section.fundings ul li a {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  main section.fundings ul li:nth-child(2) a {
+    border-left: 1px solid #f42;
+    border-right: 1px solid #f42;
+    padding: 0 8px;
+  }
+
+  main section.fundings div.fund-blocks {
+    display: flex;
+
+  }
+
+  main section.fundings div.fund-blocks > div {
+    flex-basis: 33.3%;
+  }
+
+  section.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+  }
+
+  section.content > div {
+    margin: 8px;
+    flex-basis: calc(50% - 16px);
+   
+  }
+
+  section.last-deals ul li.flex > a.news-img {
+    
+    display: block;
+    padding-top: 75%;
+    
+  }
+
+  footer {
+    top:200px;
+  }
+
+  footer div.legal {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  footer div.legal span {
+    display: inline-block;
+    margin: 5px ;
+  }
+
+
+
 }

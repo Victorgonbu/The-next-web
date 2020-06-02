@@ -260,7 +260,7 @@ main section.last-news > ul > li ul li:last-child {
 
 /* colors */
 .fundings {
-  margin: 3em 1em 1em 0;
+  margin: 3em 1em 1em 1em;
 }
 
 main section.fundings h2 a {
