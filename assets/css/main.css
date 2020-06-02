@@ -84,7 +84,7 @@ body header div.register a {
   margin: 0 auto;
   text-decoration: none;
   color: #000;
-  font-family: Helvetica Neue, Arial, sans-serif;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 /* Main */
@@ -311,7 +311,7 @@ main section.fundings .head-fund h4{
 main section.fundings .p-fund {
   background-color: #ffebe7;
   padding-top: 1em;
-  font-family: Helvetica Neue, Arial, sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   font-weight: 700;
   font-size: 18px;
 }
@@ -341,14 +341,14 @@ main section .fund-blocks .icon-box div {
 }
 
 main section .fund-blocks .icon-box a {
-  font-family: Helvetica Neue, Arial, sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   color: rgba(0, 0, 0, 0.6);
   text-decoration: none;
 }
 
 main section .fund-blocks .bottom-fbox {
   padding: 0.75em;
-  font-family: Helvetica Neue, Arial, sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   color: rgba(0, 0, 0, 0.6);
   font-size: 12px;
   line-height: 1.5em;
@@ -522,7 +522,7 @@ main section.last-deals > ul > li ul li:first-child {
 }
 footer {
   display: block;
-  font-family: Helvetica Neue, Arial, sans-serif;
+  font-family: 'Maven Pro', sans-serif;
   position: relative;
   top: 100px;;
   bottom: 0;
