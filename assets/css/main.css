@@ -516,3 +516,70 @@ main section.last-deals > ul > li ul li:first-child {
   text-decoration: line-through;
   color: rgba(0, 0, 0, 0.3);
 }
+footer {
+  display: block;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  position: relative;
+  top: 100px;;
+  bottom: 0;
+
+}
+
+footer div.social-links  {
+   flex-direction: column;
+   justify-content: center;
+   background-color: #131313;
+   height: 160px;
+}
+
+footer div.social-links ul {
+  
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top:2em;
+}
+
+footer div.social-links ul:last-child {
+  width: 80%;
+}
+
+footer div.social-links ul:last-child li a {
+  color: #aaa;
+  font-size: 11px;
+}
+
+footer div.social-links ul li {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+}
+
+footer div.social-links ul li i {
+  color: #fff;
+  background-color: #333;
+  border-radius: 50%;
+  padding: 12px;
+}
+
+footer div.legal {
+  padding: 2.5em 0;
+  flex-direction: column;
+  color: #aaa;
+  background-color: #000;
+}
+
+footer div.legal span {
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+footer div.legal span b {
+  color: red;
+}
+
+footer div.legal span img {
+  height: 9px;
+}
