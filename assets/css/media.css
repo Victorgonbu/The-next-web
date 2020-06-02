@@ -105,6 +105,23 @@
     color: #000;
   }
 
+  body header div.register {
+    height: 30px;
+    justify-content: flex-start;
+  }
+
+  body header div.register a {
+    width: calc(100% - 106px);
+    display: block;
+    padding-left: 0.8em;
+  }
+
+  body header div.register .logo-bottom {
+    width: 95px;
+    z-index: 1;
+    display: block;
+  }
+
 /* main */
   main section.hero-section{
     display: grid;
