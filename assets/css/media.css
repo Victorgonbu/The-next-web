@@ -1,5 +1,5 @@
 @media (min-width: 765px) {
-/* navbar */
+  /* navbar */
   body header .flex > div {
     display: none;
   }
@@ -42,7 +42,7 @@
     border: none;
   }
 
-  body header .flex nav .nav-li li:first-child a{
+  body header .flex nav .nav-li li:first-child a {
     color: #fff;
   }
 
@@ -56,7 +56,7 @@
     font-family: 'Maven Pro', sans-serif;
   }
 
-  body header .flex nav .nav-li-end li a{
+  body header .flex nav .nav-li-end li a {
     color: rgba(255, 255, 255, 0.6);
     padding: 0 0.4em;
     border: none;
@@ -80,7 +80,6 @@
     padding: 0 1em;
     font-size: 15px;
     font-family: 'Ropa Sans', sans-serif;
-
   }
 
   body header .flex nav > ul:last-child a {
@@ -92,7 +91,6 @@
     flex: 1;
     width: 100%;
     transform: rotateY(180deg);
-
   }
 
   body header .flex nav > ul:last-child li:last-child a {
@@ -122,12 +120,12 @@
     display: block;
   }
 
-/* main */
+  /* main */
   main {
     top: 140px;
   }
 
-  main section.hero-section{
+  main section.hero-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -135,7 +133,7 @@
     grid-gap: 8px;
   }
 
-  .hero-section .hero-grid  {
+  .hero-section .hero-grid {
     grid-column: span 2;
     grid-row: span 2;
     max-height: 100%;
@@ -163,14 +161,12 @@
     min-height: 100%;
   }
 
-  main section.hero-section div .a-link-first  h2 > a{
+  main section.hero-section div .a-link-first h2 > a {
     font-size: 2em;
-    
   }
 
   .hero-grid > article:nth-child(1) > h2:nth-child(2) > a:nth-child(1) {
     font-size: 2em;
-
   }
 
   .hero-section > div > article:nth-child(1) > h2 {
@@ -188,7 +184,6 @@
     flex-direction: column;
     flex-basis: calc(33.3% - 8px);
     margin: 4px;
-
   }
 
   section.last-news ul li.flex .news-img {
@@ -201,8 +196,9 @@
   }
 
   main section.fundings ul li {
-    padding: 10px 8px 0 0 ;
+    padding: 10px 8px 0 0;
   }
+
   main section.fundings ul li a {
     font-size: 1.2em;
     font-weight: 400;
@@ -216,7 +212,6 @@
 
   main section.fundings div.fund-blocks {
     display: flex;
-
   }
 
   main section.fundings div.fund-blocks > div {
@@ -240,7 +235,7 @@
   }
 
   footer {
-    top:200px;
+    top: 200px;
   }
 
   footer div.legal {
@@ -250,7 +245,7 @@
 
   footer div.legal span {
     display: inline-block;
-    margin: 5px ;
+    margin: 5px;
   }
 }
 
@@ -270,7 +265,7 @@
     padding: 0 1.5em;
   }
 
-  body header div.register{
+  body header div.register {
     height: 30px;
   }
 
@@ -278,33 +273,32 @@
     top: 112px;
   }
 
-  main section.hero-section .hero-grid > article:nth-child(1){
+  main section.hero-section .hero-grid > article:nth-child(1) {
     padding: 0;
-    background: rgb(255,39,0);
-    background: linear-gradient(169deg, rgba(255,39,0,1) 0%, rgba(255,39,0,0.5144257532114409) 39%, rgba(0,0,0,0) 51%, rgba(255,39,0,0) 51%, rgba(0,0,0,0.6544817756204044) 64%, rgba(0,0,0,1) 100%);
+    background: rgb(255, 39, 0);
+    background: linear-gradient(169deg, rgba(255, 39, 0, 1) 0%, rgba(255, 39, 0, 0.5144257532114409) 39%, rgba(0, 0, 0, 0) 51%, rgba(255, 39, 0, 0) 51%, rgba(0, 0, 0, 0.6544817756204044) 64%, rgba(0, 0, 0, 1) 100%);
   }
 
   .hero-grid > article:nth-child(1) > h2:nth-child(3) > a:nth-child(1) {
-      font-size: 3em;
-      line-height: 1.2em;
-    }
+    font-size: 3em;
+    line-height: 1.2em;
+  }
 
-   main section.hero-section div .a-link.a-link-first {
-      justify-content: space-between;
-    }
+  main section.hero-section div .a-link.a-link-first {
+    justify-content: space-between;
+  }
+
   main section.hero-section div .a-link h2 a {
     line-height: 1.2em;
-
   }
 
   .hero-section > div:nth-child(3) > article:nth-child(1) > h2:nth-child(2) > div:nth-child(2) {
     font-size: 0.7em;
   }
 
-  
-  main section.hero-section div .a-link > div {
-    padding: 0.5em 0.5em ;
 
+  main section.hero-section div .a-link > div {
+    padding: 0.5em 0.5em;
   }
 
   main section.hero-section {
@@ -315,9 +309,7 @@
     display: block;
     position: relative;
     top: 0;
-    padding: 1em 0.5em; 
-   
-    
+    padding: 1em 0.5em;
   }
 
   .w1024-pic > span:nth-child(2) {
@@ -346,7 +338,7 @@
   }
 
   section.content > div {
-    flex-basis: calc(33.3% - 16px)
+    flex-basis: calc(33.3% - 16px);
   }
 
   /* footer */
