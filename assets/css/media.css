@@ -1,5 +1,10 @@
 @media (min-width: 765px) {
   /* navbar */
+  section.content > div {
+    margin: 8px;
+    flex-basis: calc(50% - 16px);
+  }
+
   body header .flex > div {
     display: none;
   }
@@ -11,6 +16,10 @@
 
   body header div.flex picture {
     height: 80px;
+  }
+
+  main section.hero-section div {
+    max-height: 100%;
   }
 
   body header div.flex div {
@@ -36,10 +45,46 @@
     font-family: 'Maven Pro', sans-serif;
   }
 
+  body header div.register a {
+    width: calc(100% - 106px);
+    display: block;
+    padding-left: 0.8em;
+  }
+
+  main section.fundings ul li a {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
   body header .flex nav .nav-li li a {
     color: rgba(255, 255, 255, 0.6);
     padding: 0 0.4em;
     border: none;
+  }
+
+  main section.fundings ul li:nth-child(2) a {
+    border-left: 1px solid #f42;
+    border-right: 1px solid #f42;
+    padding: 0 8px;
+  }
+
+  main section.hero-section div .a-link h2 a {
+    line-height: 1.2em;
+  }
+
+  main section.hero-section div .a-link-first h2 > a {
+    font-size: 2em;
+  }
+
+  body header .flex nav .nav-li-end li a {
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0 0.4em;
+    border: none;
+    font-size: 13px;
+  }
+
+  body header .flex nav > ul:last-child a {
+    color: #aaa;
   }
 
   body header .flex nav .nav-li li:first-child a {
@@ -56,15 +101,17 @@
     font-family: 'Maven Pro', sans-serif;
   }
 
-  body header .flex nav .nav-li-end li a {
-    color: rgba(255, 255, 255, 0.6);
-    padding: 0 0.4em;
-    border: none;
-    font-size: 13px;
-  }
-
   body header .flex nav .nav-li-end li a:hover {
     color: #fff;
+  }
+
+  section.last-news ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  main section.fundings ul {
+    flex-direction: row;
   }
 
   body header .flex nav > ul:last-child {
@@ -75,15 +122,15 @@
     align-items: center;
   }
 
+  main section.fundings ul li {
+    padding: 10px 8px 0 0;
+  }
+
   body header .flex nav > ul:last-child li {
     justify-content: center;
     padding: 0 1em;
     font-size: 15px;
     font-family: 'Ropa Sans', sans-serif;
-  }
-
-  body header .flex nav > ul:last-child a {
-    color: #aaa;
   }
 
   body header .flex nav > ul:last-child li:last-child {
@@ -93,25 +140,19 @@
     transform: rotateY(180deg);
   }
 
+  body header .flex nav > ul:last-child a:hover {
+    color: #000;
+  }
+
   body header .flex nav > ul:last-child li:last-child a {
     width: 30px;
     height: 48px;
     border-right: 1px solid #e2e2e2;
   }
 
-  body header .flex nav > ul:last-child a:hover {
-    color: #000;
-  }
-
   body header div.register {
     height: 60px;
     justify-content: flex-start;
-  }
-
-  body header div.register a {
-    width: calc(100% - 106px);
-    display: block;
-    padding-left: 0.8em;
   }
 
   body header div.register .logo-bottom {
@@ -152,17 +193,17 @@
     display: none;
   }
 
-  main section.hero-section div {
-    max-height: 100%;
-  }
-
   main section.hero-section div .a-link {
     justify-content: flex-end;
     min-height: 100%;
   }
 
-  main section.hero-section div .a-link-first h2 > a {
-    font-size: 2em;
+  main section.fundings div.fund-blocks > div {
+    flex-basis: 33.3%;
+  }
+
+  main section.fundings .fund-blocks > div:last-child {
+    display: block;
   }
 
   .hero-grid > article:nth-child(1) > h2:nth-child(2) > a:nth-child(1) {
@@ -171,13 +212,6 @@
 
   .hero-section > div > article:nth-child(1) > h2 {
     font-size: 1.2em;
-  }
-
-  /* latest news */
-
-  section.last-news ul {
-    display: flex;
-    flex-wrap: wrap;
   }
 
   section.last-news ul li.flex {
@@ -191,42 +225,14 @@
     margin: 0 0 10px 0;
   }
 
-  main section.fundings ul {
-    flex-direction: row;
-  }
-
-  main section.fundings ul li {
-    padding: 10px 8px 0 0;
-  }
-
-  main section.fundings ul li a {
-    font-size: 1.2em;
-    font-weight: 400;
-  }
-
-  main section.fundings ul li:nth-child(2) a {
-    border-left: 1px solid #f42;
-    border-right: 1px solid #f42;
-    padding: 0 8px;
-  }
-
   main section.fundings div.fund-blocks {
     display: flex;
-  }
-
-  main section.fundings div.fund-blocks > div {
-    flex-basis: 33.3%;
   }
 
   section.content {
     display: flex;
     flex-wrap: wrap;
     width: 98%;
-  }
-
-  section.content > div {
-    margin: 8px;
-    flex-basis: calc(50% - 16px);
   }
 
   section.last-deals ul li.flex > a.news-img {
@@ -273,10 +279,18 @@
     top: 112px;
   }
 
+  section.content > div {
+    flex-basis: calc(33.3% - 16px);
+  }
+
   main section.hero-section .hero-grid > article:nth-child(1) {
     padding: 0;
     background: rgb(255, 39, 0);
     background: linear-gradient(169deg, rgba(255, 39, 0, 1) 0%, rgba(255, 39, 0, 0.5144257532114409) 39%, rgba(0, 0, 0, 0) 51%, rgba(255, 39, 0, 0) 51%, rgba(0, 0, 0, 0.6544817756204044) 64%, rgba(0, 0, 0, 1) 100%);
+  }
+
+  footer div.social-links ul:last-child li a {
+    font-size: 14px;
   }
 
   .hero-grid > article:nth-child(1) > h2:nth-child(3) > a:nth-child(1) {
@@ -288,17 +302,12 @@
     justify-content: space-between;
   }
 
-  main section.hero-section div .a-link h2 a {
-    line-height: 1.2em;
+  main section.hero-section div .a-link > div {
+    padding: 0.5em 0.5em;
   }
 
   .hero-section > div:nth-child(3) > article:nth-child(1) > h2:nth-child(2) > div:nth-child(2) {
     font-size: 0.7em;
-  }
-
-
-  main section.hero-section div .a-link > div {
-    padding: 0.5em 0.5em;
   }
 
   main section.hero-section {
@@ -312,6 +321,12 @@
     padding: 1em 0.5em;
   }
 
+  .w1024-pic span {
+    position: absolute;
+    top: 1em;
+    right: 0.5em;
+  }
+
   .w1024-pic > span:nth-child(2) {
     display: block;
   }
@@ -322,27 +337,7 @@
     max-height: 100px;
   }
 
-  .w1024-pic span {
-    position: absolute;
-    top: 1em;
-    right: 0.5em;
-  }
-
-  /* latest news */
   section.last-news ul li.flex {
     flex-basis: calc(25% - 8px);
-  }
-
-  main section.fundings .fund-blocks > div:last-child {
-    display: block;
-  }
-
-  section.content > div {
-    flex-basis: calc(33.3% - 16px);
-  }
-
-  /* footer */
-  footer div.social-links ul:last-child li a {
-    font-size: 14px;
   }
 }
