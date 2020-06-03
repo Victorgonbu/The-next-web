@@ -91,10 +91,15 @@ body header div.register a {
 
 main {
   position: relative;
-  top: 75px;
-  max-width: 1192px;
+  top: 106px;
   font-family: 'Oswald', sans-serif;
+  width: 100%;
+}
+
+main .wraper {
+  max-width: 1192px;
   margin: 0 auto;
+
 }
 
 main section.hero-section > * {
@@ -102,10 +107,12 @@ main section.hero-section > * {
 }
 
 main section.hero-section {
-  height: 670px;
+  position: relative;
+  max-height: 670px;
   flex-direction: column;
   margin: 0 auto;
   width: 96%;
+
 }
 
 main section.hero-section div {
@@ -113,9 +120,12 @@ main section.hero-section div {
   margin-bottom: 5px;
 }
 
-.w1024-pic > a:nth-child(1) > img:nth-child(1) {
+.w1024-pic > a:nth-child(1) > img:nth-child(1),
+.w1024-pic > span:nth-child(2) {
   display: none;
 }
+
+
 
 
 main section.hero-section > div:nth-child(1) {
@@ -564,7 +574,7 @@ footer div.social-links ul:last-child li a {
 }
 
 footer div.social-links ul:last-child li a:hover {
-  color: #fff;  
+  color: #fff;
 }
 
 footer div.social-links ul li {
