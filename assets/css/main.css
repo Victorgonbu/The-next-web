@@ -112,6 +112,10 @@ main section.hero-section div {
   margin-bottom: 5px;
 }
 
+.w1024-pic > a:nth-child(1) > img:nth-child(1) {
+  display: none;
+}
+
 
 main section.hero-section > div:nth-child(1) {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/zuckerberg-analytica-796x419.jpg") no-repeat;
@@ -595,4 +599,3 @@ footer div.legal span img {
 div.register div.logo-bottom {
   display: none;
 }
-
