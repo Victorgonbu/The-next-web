@@ -540,11 +540,12 @@ main section.last-deals > ul > li ul li:first-child {
   text-decoration: line-through;
   color: rgba(0, 0, 0, 0.3);
 }
+
 footer {
   display: block;
   font-family: 'Maven Pro', sans-serif;
   position: relative;
-  top: 100px;;
+  top: 130px;;
   bottom: 0;
 
 }
