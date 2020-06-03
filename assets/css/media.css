@@ -146,9 +146,8 @@
   }
 
   .hero-section > div:nth-child(2) > article,
-  .hero-section > div:nth-child(3) > article  {
-    height: 235px ;
-    border: 1px solid red;
+  .hero-section > div:nth-child(3) > article {
+    font-size: 1.5em;
   }
 
   main section.hero-section div {
@@ -273,9 +272,17 @@
   }
 
   .hero-grid > article:nth-child(1) > h2:nth-child(3) > a:nth-child(1) {
-      font-size: 45px;
+      font-size: 3em;
       line-height: 1.2em;
     }
+
+  main section.hero-section div .a-link h2 a {
+    line-height: 1.2em;
+  }
+
+  .hero-section > div:nth-child(3) > article:nth-child(1) > h2:nth-child(2) > div:nth-child(2) {
+    font-size: 0.7em;
+  }
 
   main section.hero-section div .a-link h5,
   main section.hero-section div .a-link h2 {
@@ -289,7 +296,6 @@
   .w1024-pic {
     height: 100%;
     position: relative;
-
     padding: 1em 0.5em;
   }
 
