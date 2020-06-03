@@ -158,8 +158,14 @@
     max-height: 100%;
   }
 
-  main section.hero-section div .a-link-first h2 > a{
-    font-size: 1.5em;
+  main section.hero-section div .a-link {
+    justify-content: flex-end;
+    min-height: 100%;
+  }
+
+  main section.hero-section div .a-link-first  h2 > a{
+    font-size: 2em;
+    
   }
 
   .hero-grid > article:nth-child(1) > h2:nth-child(2) > a:nth-child(1) {
@@ -283,6 +289,9 @@
       line-height: 1.2em;
     }
 
+   main section.hero-section div .a-link.a-link-first {
+      justify-content: space-between;
+    }
   main section.hero-section div .a-link h2 a {
     line-height: 1.2em;
 
@@ -292,9 +301,9 @@
     font-size: 0.7em;
   }
 
-  main section.hero-section div .a-link h5,
-  main section.hero-section div .a-link h2 {
-    padding-left: 0.5em;
+  
+  main section.hero-section div .a-link > div {
+    padding: 0.5em 0.5em ;
 
   }
 
@@ -303,10 +312,12 @@
   }
 
   .w1024-pic {
-    height: 100%;
-    position: relative;
-    padding: 1em 0.5em;
     display: block;
+    position: relative;
+    top: 0;
+    padding: 1em 0.5em; 
+   
+    
   }
 
   .w1024-pic > span:nth-child(2) {

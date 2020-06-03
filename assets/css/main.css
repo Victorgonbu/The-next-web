@@ -61,16 +61,15 @@ body header div.flex picture {
   height: 48px;
 }
 
-body header div.flex picture a {
-  width: 100%;
-  height: 100%;
-  display: block;
-  padding: 16px 20px;
+body header div.flex picture:hover {
+  cursor: pointer;
 }
 
-body header div.flex picture a img {
-  width: 100%;
+body header div.flex picture  img {
+  width: 60%;
   height: 100%;
+  margin: 0 auto;
+  
 }
 
 body header div.register {
@@ -103,20 +102,23 @@ main .wraper {
 }
 
 main section.hero-section > * {
-  flex: 1;
+ min-height: 220px;
 }
 
 main section.hero-section {
   position: relative;
-  max-height: 670px;
+  max-height: 660px;
   flex-direction: column;
   margin: 0 auto;
   width: 96%;
+}
 
+main section.hero-section > h2 {
+  display: none;
 }
 
 main section.hero-section div {
-  max-height: 212.8px;
+
   margin-bottom: 5px;
 }
 
@@ -128,27 +130,27 @@ main section.hero-section div {
 
 
 
-main section.hero-section > div:nth-child(1) {
+main section.hero-section > div:nth-child(2) {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/zuckerberg-analytica-796x419.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-main section.hero-section > div:nth-child(2) {
+main section.hero-section > div:nth-child(3) {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
   background-size: cover;
   background-position: center;
 }
 
-main section.hero-section > div:nth-child(3) {
+main section.hero-section > div:nth-child(4) {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/PS5-796x417.jpg");
   background-size: cover;
   background-position: center;
 }
 
 main section.hero-section div .a-link {
+  min-height: 220px;
   width: 100%;
-  height: 100%;
   flex-direction: column;
   justify-content: flex-end;
   color: #fff;
