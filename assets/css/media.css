@@ -310,4 +310,21 @@
     right: 0.5em;
   }
 
+  /* latest news */
+  section.last-news ul li.flex {
+    flex-basis: calc(25% - 8px);
+  }
+
+  main section.fundings .fund-blocks > div:last-child {
+    display: block;
+  }
+
+  section.content > div {
+    flex-basis: calc(33.3% - 16px)
+  }
+
+  /* footer */
+  footer div.social-links ul:last-child li a {
+    font-size: 14px;
+  }
 }

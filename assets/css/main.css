@@ -92,8 +92,9 @@ body header div.register a {
 main {
   position: relative;
   top: 75px;
-  width: 100%;
+  max-width: 1192px;
   font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
 }
 
 main section.hero-section > * {
@@ -562,6 +563,10 @@ footer div.social-links ul:last-child li a {
   font-size: 11px;
 }
 
+footer div.social-links ul:last-child li a:hover {
+  color: #fff;  
+}
+
 footer div.social-links ul li {
   margin: 0 3px;
   display: flex;
@@ -572,7 +577,12 @@ footer div.social-links ul li i {
   color: #fff;
   background-color: #333;
   border-radius: 50%;
+  border: 1px solid #333;
   padding: 12px;
+}
+
+footer div.social-links ul li i:hover {
+  background-color: #000;
 }
 
 footer div.legal {
