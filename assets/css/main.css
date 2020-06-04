@@ -1,4 +1,3 @@
-/* General rules */
 .flex {
   display: flex;
 }
@@ -23,7 +22,6 @@ li {
   text-decoration: none;
 }
 
-/* Header */
 body header {
   position: fixed;
   background: #fff;
@@ -165,8 +163,6 @@ body header div.register {
   height: 55px;
   width: 100%;
 }
-
-/* Main */
 
 main {
   position: relative;
@@ -384,7 +380,6 @@ main section.last-news > ul > li ul li:last-child {
   padding-top: 0.2em;
 }
 
-/* colors */
 .fundings {
   margin: 3em 1em 1em 1em;
 }
