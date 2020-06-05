@@ -1,0 +1,605 @@
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  border: 1px solid pink;
+}
+
+a {
+  color: #f42;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+
+li {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+body header {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  z-index: 1;
+}
+
+body header .flex {
+  justify-content: space-between;
+  width: 100%;
+}
+
+body header .flex nav {
+  display: none;
+}
+
+main section.hero-section div {
+  margin-bottom: 5px;
+}
+
+body header div.flex div {
+  width: 96px;
+  height: 48px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section.content h2 a {
+  display: block;
+  font-size: 28px;
+  color: #f42;
+  padding: 1em 0 0.5em 0;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+main section.fundings h2 a {
+  font-size: 28px;
+}
+
+main section.last-news h2 a {
+  display: inline-block;
+  padding: 0.8em 0;
+  color: #f42;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+body header div.register a {
+  font-size: 12px;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+main section.last-news > ul > li h4 a {
+  display: inline-block;
+  color: #000;
+  font-size: 1em;
+  font-weight: 700;
+  text-decoration: none;
+  padding-bottom: 0.5em;
+  line-height: 1.2em;
+}
+
+main section .fund-blocks .icon-box a {
+  font-family: 'Maven Pro', sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+main section .fund-blocks .bottom-fbox a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+main section.last-news h2 a:hover {
+  color: #000;
+}
+
+section.content ul.orange-list li a {
+  color: #555;
+  font-size: 13px;
+}
+
+body header div.flex div a:first-child {
+  color: #bcbcbc;
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid #eee;
+}
+
+body header div.flex div a:last-child {
+  color: #f42;
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid #eee;
+}
+
+body header div.flex div i {
+  margin: 0 auto;
+  transform: rotateY(180deg);
+}
+
+main section .fund-blocks img {
+  width: 60px;
+  height: 60px;
+}
+
+main section .fund-blocks picture {
+  position: relative;
+  bottom: 35px;
+  right: 10px;
+}
+
+body header div.flex picture {
+  background: linear-gradient(to right bottom, rgb(204, 0, 153), rgb(255, 68, 34) 85%);
+  width: 106px;
+  height: 48px;
+}
+
+body header div.flex picture:hover {
+  cursor: pointer;
+}
+
+footer div.legal span img {
+  height: 9px;
+}
+
+body header div.flex picture img {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body header div.register {
+  background-color: #fd3;
+  height: 55px;
+  width: 100%;
+}
+
+main {
+  position: relative;
+  top: 106px;
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+}
+
+main .wraper {
+  max-width: 1192px;
+  margin: 0 auto;
+}
+
+main section.hero-section > * {
+  min-height: 220px;
+}
+
+main section.hero-section {
+  position: relative;
+  max-height: 660px;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 96%;
+}
+
+main section.hero-section > h2 {
+  display: none;
+}
+
+footer div.legal span {
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+.w1024-pic > a:nth-child(1) > img:nth-child(1),
+.w1024-pic > span:nth-child(2) {
+  display: none;
+}
+
+main section.hero-section > div:nth-child(2) {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/03/zuckerberg-analytica-796x419.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main section.hero-section > div:nth-child(3) {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Sprint_image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main section.hero-section > div:nth-child(4) {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/PS5-796x417.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+main section.hero-section div .a-link {
+  min-height: 220px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #fff;
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") repeat;
+  background-size: contain;
+  padding: 0.5em;
+}
+
+main section.fundings .p-fund h5 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 10px;
+  margin-top: 1em;
+  color: rgba(0, 0, 0, 0.4);
+  letter-spacing: 1.65px;
+}
+
+main section.hero-section div .a-link h5 {
+  font-size: 0.8em;
+}
+
+main section.hero-section div .a-link h2 {
+  padding: 0.3em 0;
+}
+
+main section.hero-section div .a-link h2 a {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+
+main section .fund-blocks .icon-box div {
+  margin-bottom: 10px;
+}
+
+main section.hero-section article.a-link div .author-a,
+main section.hero-section div .a-link div {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.85em;
+  padding-top: 0.5em;
+}
+
+main section.last-news {
+  font-family: 'Roboto', sans-serif;
+  width: 93%;
+  margin: 0 auto;
+}
+
+main section.last-news > ul > li {
+  color: #000;
+  margin-top: 8px;
+}
+
+main section.last-news > ul > li .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Untitled-design-58-516x270.png);
+  display: inline-block;
+  min-height: 75px;
+  min-width: 75px;
+  background-position: center;
+  background-size: cover;
+  margin-right: 8px;
+}
+
+footer div.social-links ul:last-child li a {
+  color: #aaa;
+  font-size: 11px;
+}
+
+section.content div.content-hero article ul a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+section.content ul.orange-list li a:hover {
+  color: #000;
+}
+
+section.content div.flex div:first-child a {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+section.last-deals div.head-deals h3 a:hover {
+  color: #000;
+}
+
+footer div.social-links ul:last-child li a:hover {
+  color: #fff;
+}
+
+section.last-news ul li.flex div h4 a:hover {
+  color: #f42;
+  text-decoration: underline #e5e5e5;
+}
+
+main section.last-news > ul > li:nth-child(2) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/master_elon_musk2-516x270.png);
+}
+
+main section.last-news > ul > li:nth-child(3) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Iconscout-540x270.jpg);
+}
+
+main section.last-news > ul > li:nth-child(4) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/tesla-xpeng-website-car-ev-copyright-copy-cat-electric-vehicle-funny-480x270.png);
+}
+
+main section.last-news > ul > li:nth-child(5) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-6-1-516x270.png);
+}
+
+main section.last-news > ul > li:nth-child(6) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-5-2-516x270.png);
+}
+
+main section.last-news > ul > li:nth-child(7) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain-516x270.jpg);
+}
+
+main section.last-news > ul > li:nth-child(8) .news-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/tesla-xpeng-website-car-ev-copyright-copy-cat-electric-vehicle-funny-480x270.png);
+}
+
+footer div.social-links ul li {
+  margin: 0 3px;
+  display: flex;
+  justify-content: center;
+}
+
+main section.fundings ul li {
+  padding-top: 1em;
+  font-size: 14px;
+  font-family: 'Oswald', sans-serif;
+}
+
+main section.last-news > ul > li ul li {
+  font-size: 0.8em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+section.content ul.orange-list li {
+  padding: 0.5em 1em;
+  border-bottom: 1px solid rgb(218, 216, 216);
+}
+
+section.content div.content-hero > article ul li {
+  padding: 10px 5px 0 0;
+}
+
+main section.last-news > ul > li ul li:last-child {
+  padding-left: 1em;
+  padding-top: 0.2em;
+}
+
+.fundings {
+  margin: 3em 1em 1em 1em;
+}
+
+main section.fundings ul {
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+main section .fund-blocks {
+  min-width: 335px;
+}
+
+main section .fund-price {
+  font-family: 'Roboto', sans-serif;
+  margin: 0.25em;
+}
+
+main section.fundings .head-fund h4 {
+  padding: 0.7em 0 0.7em 5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #f42;
+}
+
+main section.fundings .p-fund {
+  background-color: #ffebe7;
+  padding-top: 1em;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  width: 100%;
+  padding-left: 1em;
+}
+
+main section .fund-blocks .icon-box {
+  padding: 0.75em;
+  background-color: #fffaf8;
+  border-bottom: 1px solid #ffcdc2;
+}
+
+main section .fund-blocks .bottom-fbox {
+  padding: 0.75em;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 12px;
+  line-height: 1.5em;
+  background-color: #fffaf8;
+}
+
+main section .fund-blocks .bottom-fbox span {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+main section.fundings .fund-blocks > div:last-child {
+  display: none;
+}
+
+section.content {
+  width: 90%;
+  margin: 0 auto;
+  height: fit-content;
+  color: #fff;
+}
+
+section.content div.content-hero {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/05/Untitled-design-59-368x276.png);
+  display: block;
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+section.content div.content-hero article {
+  color: #fff;
+  padding: 1em 0.5em;
+}
+
+section.content div.content-hero > article {
+  display: block;
+  padding-top: 40%;
+  background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
+  background-size: contain;
+}
+
+section.content div.content-hero > article h5 {
+  padding: 5px 0;
+  font-size: 13px;
+}
+
+section.last-deals div.head-deals h3 {
+  font-size: 12px;
+}
+
+section.content div.content-hero > article h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+section.content div.content-hero > article h3:hover {
+  text-decoration: underline;
+}
+
+section.content div.flex {
+  height: 96px;
+  margin-top: 2px;
+}
+
+section.content div.flex > * {
+  width: 100%;
+}
+
+section.content div.flex div:first-child {
+  background-color: #ffebe7;
+  padding: 10px 5px 10px 10px;
+  width: calc(100% - 96px);
+}
+
+section.content div.flex div:first-child h5 {
+  color: #f42;
+  text-decoration: none;
+  line-height: 1.5em;
+  font-size: 13px;
+}
+
+section.content div.flex div:last-child {
+  width: 96px;
+  height: 96px;
+}
+
+section.content div.flex a.anch-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Chrome-plain.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section.content ul.orange-list {
+  list-style: none;
+}
+
+section.content ul.orange-list li::before {
+  content: "\2022";
+  color: #f42;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+section.last-deals div.head-deals {
+  justify-content: space-between;
+}
+
+section.last-deals div.head-deals > * {
+  align-items: center;
+}
+
+main section.last-deals > ul > li ul li:last-child {
+  padding-top: 0.3em;
+  font-size: 14px;
+}
+
+main section.last-deals > ul > li ul li:first-child {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  display: block;
+  font-family: 'Maven Pro', sans-serif;
+  position: relative;
+  top: 130px;
+  bottom: 0;
+}
+
+footer div.social-links {
+  flex-direction: column;
+  justify-content: center;
+  background-color: #131313;
+  height: 160px;
+}
+
+footer div.social-links ul {
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+footer div.social-links ul:last-child {
+  width: 80%;
+}
+
+footer div.social-links ul li i {
+  color: #fff;
+  background-color: #333;
+  border-radius: 50%;
+  border: 1px solid #333;
+  padding: 12px;
+}
+
+footer div.social-links ul li i:hover {
+  background-color: #000;
+}
+
+footer div.legal {
+  padding: 2.5em 0;
+  flex-direction: column;
+  color: #aaa;
+  background-color: #000;
+}
+
+footer div.legal span b {
+  color: red;
+}
+
+div.register div.logo-bottom {
+  display: none;
+}

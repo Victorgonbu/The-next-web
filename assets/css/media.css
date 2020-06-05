@@ -1,0 +1,345 @@
+@media (min-width: 768px) {
+  section.content > div {
+    margin: 8px;
+    flex-basis: calc(50% - 16px);
+  }
+
+  body header .flex > div {
+    display: none;
+  }
+
+  body header div.flex {
+    height: 80px;
+    justify-content: flex-start;
+  }
+
+  body header div.flex picture {
+    height: 80px;
+  }
+
+  main section.hero-section div {
+    max-height: 100%;
+    margin-bottom: 0;
+  }
+
+  body header div.flex div {
+    width: 100%;
+    height: 32px;
+  }
+
+  body header .flex nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  body header .flex nav div {
+    justify-content: flex-end;
+    background-color: #000;
+    padding: 0 1em;
+  }
+
+  body header .flex nav .nav-li {
+    font-size: 13px;
+    justify-content: flex-start;
+    font-family: 'Maven Pro', sans-serif;
+  }
+
+  body header div.register a {
+    width: calc(100% - 106px);
+    display: block;
+    padding-left: 0.8em;
+  }
+
+  main section.fundings ul li a {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  body header .flex nav .nav-li li a {
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0 0.4em;
+    border: none;
+  }
+
+  main section.fundings ul li:nth-child(2) a {
+    border-left: 1px solid #f42;
+    border-right: 1px solid #f42;
+    padding: 0 8px;
+  }
+
+  main section.hero-section div .a-link h2 a {
+    line-height: 1.2em;
+  }
+
+  main section.hero-section div .a-link-first h2 > a {
+    font-size: 2em;
+  }
+
+  body header .flex nav .nav-li-end li a {
+    color: rgba(255, 255, 255, 0.6);
+    padding: 0 0.4em;
+    border: none;
+    font-size: 13px;
+  }
+
+  body header .flex nav > ul:last-child a {
+    color: #aaa;
+  }
+
+  body header .flex nav .nav-li li:first-child a {
+    color: #fff;
+  }
+
+  body header .flex nav .nav-li li a:hover {
+    color: #fff;
+  }
+
+  body header .flex nav .nav-li-end {
+    justify-content: flex-end;
+    width: 60%;
+    font-family: 'Maven Pro', sans-serif;
+  }
+
+  body header .flex nav .nav-li-end li a:hover {
+    color: #fff;
+  }
+
+  section.last-news ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  main section.fundings ul {
+    flex-direction: row;
+  }
+
+  body header .flex nav > ul:last-child {
+    height: calc(100% - 32px);
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  main section.fundings ul li {
+    padding: 10px 8px 0 0;
+  }
+
+  body header .flex nav > ul:last-child li {
+    justify-content: center;
+    padding: 0 1em;
+    font-size: 15px;
+    font-family: 'Ropa Sans', sans-serif;
+  }
+
+  body header .flex nav > ul:last-child li:last-child {
+    justify-content: flex-start;
+    flex: 1;
+    width: 100%;
+    transform: rotateY(180deg);
+  }
+
+  body header .flex nav > ul:last-child a:hover {
+    color: #000;
+  }
+
+  body header .flex nav > ul:last-child li:last-child a {
+    width: 30px;
+    height: 48px;
+    border-right: 1px solid #e2e2e2;
+  }
+
+  body header div.register {
+    height: 60px;
+    justify-content: flex-start;
+  }
+
+  body header div.register .logo-bottom {
+    width: 95px;
+    z-index: 1;
+    display: block;
+  }
+
+  main {
+    top: 140px;
+  }
+
+  main section.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-height: 600px;
+    grid-gap: 8px;
+  }
+
+  .hero-section .hero-grid {
+    grid-column: span 2;
+    grid-row: span 2;
+    max-height: 100%;
+  }
+
+  .hero-section > div:nth-child(2) {
+    margin-bottom: 0;
+  }
+
+  .hero-section > div:nth-child(2) > article,
+  .hero-section > div:nth-child(3) > article {
+    font-size: 1.2em;
+  }
+
+  .w1024-pic {
+    display: none;
+  }
+
+  main section.hero-section div .a-link {
+    justify-content: flex-end;
+    min-height: 100%;
+  }
+
+  main section.fundings div.fund-blocks > div {
+    flex-basis: 33.3%;
+  }
+
+  .hero-grid > article:nth-child(1) > h2:nth-child(2) > a:nth-child(1) {
+    font-size: 2em;
+  }
+
+  .hero-section > div > article:nth-child(1) > h2 {
+    font-size: 1.2em;
+  }
+
+  section.last-news ul li.flex {
+    flex-direction: column;
+    flex-basis: calc(33.3% - 8px);
+    margin: 4px;
+  }
+
+  section.last-news ul li.flex .news-img {
+    padding-top: 56.25%;
+    margin: 0 0 10px 0;
+  }
+
+  main section.fundings div.fund-blocks {
+    display: flex;
+  }
+
+  section.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98%;
+  }
+
+  section.last-deals ul li.flex > a.news-img {
+    display: block;
+    padding-top: 75%;
+  }
+
+  footer {
+    top: 200px;
+  }
+
+  footer div.legal {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  footer div.legal span {
+    display: inline-block;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  header div.flex picture {
+    display: none;
+  }
+
+  body header div.register .logo-bottom {
+    display: none;
+  }
+
+  body header div.register a {
+    margin: 0;
+    padding: 0 1.5em;
+  }
+
+  body header div.register {
+    height: 30px;
+  }
+
+  main {
+    top: 112px;
+  }
+
+  section.fundings div.funding-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  section.content > div {
+    flex-basis: calc(33.3% - 16px);
+  }
+
+  main section.hero-section .hero-grid > article:nth-child(1) {
+    padding: 0;
+    background: rgb(255, 39, 0);
+    background: linear-gradient(169deg, rgba(255, 39, 0, 1) 0%, rgba(255, 39, 0, 0.5144257532114409) 39%, rgba(0, 0, 0, 0) 51%, rgba(255, 39, 0, 0) 51%, rgba(0, 0, 0, 0.6544817756204044) 64%, rgba(0, 0, 0, 1) 100%);
+  }
+
+  footer div.social-links ul:last-child li a {
+    font-size: 14px;
+  }
+
+  .hero-grid > article:nth-child(1) > h2:nth-child(3) > a:nth-child(1) {
+    font-size: 3em;
+    line-height: 1.2em;
+  }
+
+  main section.hero-section div .a-link.a-link-first {
+    justify-content: space-between;
+  }
+
+  main section.hero-section div .a-link > div {
+    padding: 0.5em 0.5em;
+  }
+
+  main section.fundings .fund-blocks > div:last-child {
+    display: block;
+  }
+
+  .hero-section > div:nth-child(3) > article:nth-child(1) > h2:nth-child(2) > div:nth-child(2) {
+    font-size: 0.7em;
+  }
+
+  main section.hero-section {
+    min-height: 540px;
+  }
+
+  .w1024-pic {
+    display: block;
+    position: relative;
+    top: 0;
+    padding: 1em 0.5em;
+  }
+
+  .w1024-pic span {
+    position: absolute;
+    top: 1em;
+    right: 0.5em;
+  }
+
+  .w1024-pic > span:nth-child(2) {
+    display: block;
+  }
+
+  .w1024-pic > a:nth-child(1) > img:nth-child(1) {
+    display: flex;
+    max-width: 55%;
+    max-height: 100px;
+  }
+
+  section.last-news ul li.flex {
+    flex-basis: calc(25% - 8px);
+  }
+}
