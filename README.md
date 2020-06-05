@@ -13,7 +13,7 @@ Used a mobile first approach and worked with mediaqueries with 2 breakpoints.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/Shaqri/The-next-web/feature/index.html)
+[Live Demo Link](https://shaqri.github.io/The-next-web/)
 
 ## Authors
 
